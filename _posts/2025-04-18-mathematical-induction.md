@@ -14,12 +14,14 @@ We will look at various forms of mathematical induction here.
 
 {% capture notice-2 %}
 **Mathematical Induction (First Formulation).**
-Suppose $P(n)$ means that the property $P$ holds for the number 
-$n$. Then the principle of mathematical induction states that $P(n)$
-is true for all natural numbers $n$ provided that
+Suppose that $P(n)$ means the number $n$ satisfies the property 
+$P$ and that
 
-1. $P(1)$ is true.
+1. $P(1)$ is true,
 2. If $P(k)$ is true, then $P(k+1)$ is also true.
+
+Then the principle of mathematical induction states that $P(n)$
+is true for all $n\in\mathbb{N}$.
 {% endcapture %}
 
 <div class="notice--info">{{ notice-2 | markdownify }}</div>
@@ -28,10 +30,10 @@ is true for all natural numbers $n$ provided that
 **Mathematical Induction (Second Formulation).**
 If $A$ is any set of natural numbers and
 
-1. $1$ is in $A$,
+1. $1\in A$,
 2. If $k\in A$, then $k+1\in A$,
 
-then $A$ is the set of all natural numbers.
+then $A=\mathbb{N}$.
 {% endcapture %}
 
 <div class="notice--info">{{ notice-2 | markdownify }}</div>
@@ -47,7 +49,7 @@ principle of mathematical induction.
 **The General Principle Of Mathematical Induction.**
 If $A$ is any set of natural numbers and
 
-1. $n_0$ is in $A$,
+1. $n_0\in A$,
 2. If $k\in A$, then $k+1\in A$,
 
 then $A$ is the set of all natural numbers $n\geq n_0$.
@@ -59,9 +61,9 @@ Define the set $B$ by
 
 $$B=\{\,m\in\mathbb{N}:n_0-1+m\in A\,\}.$$
 
-Then $1$ is in $B$ and if $k\in B$, then $k+1\in B$. It follows by the 
-second formulation of mathematical induction that $B$ is
-the set of all natural numbers and consequently, $A$ is the set of all
+Then $1\in B$ and if $k\in B$, then $k+1\in B$. It follows by the 
+second formulation of mathematical induction that $B=\mathbb{N}$
+and consequently, $A$ is the set of all
 natural numbers $n\geq n_0$.
 
 **The Well-ordering Principle.** If $A$ is a nonempty set of natural 
@@ -109,7 +111,7 @@ If $A$ is any set of natural numbers and
 1. $1$ is in $A$,
 2. If $1,\ldots,k\in A$, then $k+1\in A$,
 
-then $A$ is the set of all natural numbers.
+then $A=\mathbb{N}$.
 {% endcapture %}
 
 <div class="notice--info">{{ notice-2 | markdownify }}</div>
