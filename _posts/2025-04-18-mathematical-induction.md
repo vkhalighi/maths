@@ -108,7 +108,7 @@ mathematical induction.
 **The Principle Of Complete (or Strong) Mathematical Induction.**
 If $A$ is any set of natural numbers and
 
-1. $1$ is in $A$,
+1. $1\in A$,
 2. If $1,\ldots,k\in A$, then $k+1\in A$,
 
 then $A=\mathbb{N}$.
