@@ -1,6 +1,6 @@
 ---
+permalink: /
 layout: single
-math: true
 author_profile: true
 ---
 Welcome to Elements of Mathematics! I try to learn the core areas
