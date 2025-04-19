@@ -1,4 +1,5 @@
 ---
+classes: wide
 last_modified_at: 2025-04-18
 math: true
 title: "Mathematical Induction"
