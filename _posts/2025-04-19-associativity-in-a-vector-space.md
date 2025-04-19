@@ -7,6 +7,9 @@ permalink: /2025/04/19/associativity-in-a-vector-space
 categories: [Linear Algebra]
 tags: [addition, associativity, vector space, vectors]
 author_profile: true
+sidebar:
+  - title: "Posts"
+    nav: sidebar-posts
 ---
 Since a vector space satisfies associativity under addition, one does 
 not need to care about the order in which vectors in a vector space are
