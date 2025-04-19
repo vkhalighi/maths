@@ -24,7 +24,7 @@ Then the principle of mathematical induction states that $P(n)$
 is true for all $n\in\mathbb{N}$.
 {% endcapture %}
 
-<div class="notice--info">{{ notice-2 | markdownify }}</div>
+<div class="notice--primary">{{ notice-2 | markdownify }}</div>
 
 {% capture notice-2 %}
 **Mathematical Induction (Second Formulation).**
@@ -36,7 +36,7 @@ If $A$ is any set of natural numbers and
 then $A=\mathbb{N}$.
 {% endcapture %}
 
-<div class="notice--info">{{ notice-2 | markdownify }}</div>
+<div class="notice--primary">{{ notice-2 | markdownify }}</div>
 
 The first and second formulations of mathematical induction are equivalent. To see this, define the set $A$ by
 
@@ -55,7 +55,7 @@ If $A$ is any set of natural numbers and
 then $A$ is the set of all natural numbers $n\geq n_0$.
 {% endcapture %}
 
-<div class="notice--info">{{ notice-2 | markdownify }}</div>
+<div class="notice--primary">{{ notice-2 | markdownify }}</div>
 
 Define the set $B$ by
 
@@ -68,7 +68,7 @@ natural numbers $n\geq n_0$.
 
 **The Well-ordering Principle.** If $A$ is a nonempty set of natural 
 numbers, then $A$ has a least element.
-{: .notice--info}
+{: .notice--primary}
 
 The principle of mathematical induction and the well-ordering principle
 are equivalent. 
@@ -114,7 +114,7 @@ If $A$ is any set of natural numbers and
 then $A=\mathbb{N}$.
 {% endcapture %}
 
-<div class="notice--info">{{ notice-2 | markdownify }}</div>
+<div class="notice--primary">{{ notice-2 | markdownify }}</div>
 
 Define the set $B$ by
 
