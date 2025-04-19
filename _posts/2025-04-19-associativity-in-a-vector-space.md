@@ -33,7 +33,7 @@ We first need to define we mean by the sum
 $\mathbf{v}_1+\cdots+\mathbf{v}_n$.
 
 {% capture notice-2 %}
-**Definition (The sum of $n$ vectors in a vector space).**
+**Definition (The sum of $\boldsymbol{n}$ vectors in a vector space).**
 The sum $\mathbf{v}_1+\cdots+\mathbf{v}_n$ denotes the sum
 
 $$\mathbf{v}_1+(\mathbf{v}_2+(\mathbf{v}_3+\cdots+(\mathbf{v}_{n-2}+(\mathbf{v}_{n-1}+\mathbf{v}_n))\ldots).$$
