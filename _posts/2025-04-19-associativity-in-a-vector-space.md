@@ -29,7 +29,7 @@ arbitrary $n$ vectors $\mathbf{v}_1,\ldots,\mathbf{v}_n$ in a vector
 space. Our goal is justify that $\mathbf{v}_1+\cdots+\mathbf{v}_n$
 makes sense.
 
-We first need to define we mean by the sum
+We first need to define what we mean by the sum
 $\mathbf{v}_1+\cdots+\mathbf{v}_n$.
 
 {% capture notice-2 %}
