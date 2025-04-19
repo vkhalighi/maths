@@ -26,7 +26,7 @@ order these vectors are added together. As a result, we can drop
 the parentheses and simply talk about $\mathbf{u}+\mathbf{v}+
 \mathbf{w}$. We can then extend this and talk about the sum of 
 arbitrary $n$ vectors $\mathbf{v}_1,\ldots,\mathbf{v}_n$ in a vector
-space. Our goal is justify that $\mathbf{v}_1+\cdots+\mathbf{v}_n$
+space. Our goal is to justify that $\mathbf{v}_1+\cdots+\mathbf{v}_n$
 makes sense.
 
 We first need to define what we mean by the sum
