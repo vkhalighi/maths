@@ -95,7 +95,7 @@ Finally, we will use Claim 2 to justify our desired result.
 
 {% capture notice-2 %}
 **Lemma.** 
-Let $\mathbf{f}(\mathbf{v}_1,\ldots,\mathbf{v}_k)$ be some sums formed from the vectors
+Let $\mathbf{f}(\mathbf{v}_1,\ldots,\mathbf{v}_k)$ be some sum formed from the vectors
 $\mathbf{v}_1,\ldots,\mathbf{v}_k$. Then
 
 $$\mathbf{f}(\mathbf{v}_1,\ldots,\mathbf{v}_k)=\mathbf{v}_1+\cdots+\mathbf{v}_k.$$
@@ -103,8 +103,8 @@ $$\mathbf{f}(\mathbf{v}_1,\ldots,\mathbf{v}_k)=\mathbf{v}_1+\cdots+\mathbf{v}_k.
 
 <div class="notice--info">{{ notice-2 | markdownify }}</div>
 
-We use complete induction on $k$ here. Lemma for $k=1$ reads $\mathbf{f}(\mathbf{v}_1)=\mathbf{v}_1$ which is true. Let's assume that
-the statement is true for all numbers $l< k$. Then
+We use complete induction on $k$ here. For $k=1$, Lemma reads $\mathbf{f}(\mathbf{v}_1)=\mathbf{v}_1$ which is true. Let's assume that
+Lemma is true for all numbers $l< k$. Then
 
 $$\begin{align*}
 \mathbf{f}(\mathbf{v}_1,\ldots,\mathbf{v}_k)&=\mathbf{g}(\mathbf{v}_1,\ldots,\mathbf{v}_l)+\mathbf{h}(\mathbf{v}_{l+1},\ldots,\mathbf{v}_k)\\
