@@ -306,6 +306,6 @@ defaults:
       author_profile: true
       show_date: true
       read_time: false
-      comments: # true
-      share: true
-      related: true
+      comments: false # true
+      share: false
+      related: false
