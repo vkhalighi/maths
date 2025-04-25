@@ -12,6 +12,9 @@ Elements of Mathematics is also available under the alternative domain
 as the posts are mostly notes to myself but you are more than welcome
 to use my email address for pointing out mathematical errors.
 
+I also try to learn the core areas of computer science exhaustively; 
+then I try to digest that knowledge by posting on [Elements of Computer Science](https://cs.ac.nz).
+
 I love telling stories through mathematics and mathematical proofs
 provide a wonderful opportunity to tell exciting stories.
 
