@@ -7,3 +7,17 @@ search: false
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+.e {
+    display: inline-block;
+    font-size: 87%;
+    line-height: 0;
+    text-transform: uppercase;
+    vertical-align: -.45ex;
+    margin-left: -.2em;
+    margin-right: -.1em;
+}
+
+.t-logo {
+    white-space: nowrap;
+}
